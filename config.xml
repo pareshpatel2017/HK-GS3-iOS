@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.ryanw.novatrice"
-        versionCode = "291"
+        versionCode = "1"
         version   = "1.0.0">
   <name>GS3</name>
 
@@ -13,8 +13,7 @@
   <author href="http://phonegap.com" email="support@phonegap.com">
     Suchit Patel Team
   </author>
- <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
+  <preference name="DisallowOverscroll" value="true" />    
   <preference name="permissions" value="none"/>
 
   <!-- Customize your app and platform with the preference element. -->
