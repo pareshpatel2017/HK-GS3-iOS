@@ -152,6 +152,18 @@ Define access to external domains.
 
 Otherwise, you can specify specific domains:
 -->
+	<config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace">
+		<string>Allows access to photo library</string>
+	</config-file>
+
+	<config-file platform="ios" parent="NSBluetoothPeripheralUsageDescription" mode="replace">
+		<string>Allows access to bluetooth devices</string>
+	</config-file>
+
+	<config-file platform="ios" parent="NSCameraUsageDescription" mode="replace">
+		<string>Allows usage of the camera</string>
+	</config-file>
+	
   <access origin="*"/>
   <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
